@@ -507,9 +507,9 @@ async def upload(bot: Client, m: Message):
                         os.remove(ka)
                         time.sleep(1)
                     except FloodWait as e:
-                    await m.reply_text(str(e))
-                    time.sleep(e.x)
-                    continue
+                        await m.reply_text(str(e))
+                        time.sleep(e.x)
+                        continue
             
             elif ".pdf" in url:
                 try:
