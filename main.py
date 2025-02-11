@@ -34,8 +34,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 centered_text = "◦•●◉✿ 𝕰𝖓𝖌𝖎𝖓𝖊𝖊𝖗𝖘 𝕭𝖆𝖇𝖚 ✿◉●•◦".center(40)
 
 # Environment variables for API credentials
-API_ID = os.environ.get("API_ID", "21705536")
-API_HASH = os.environ.get("API_HASH", "c5bb241f6e3ecf33fe68a444e288de2d")
+API_ID = os.environ.get("API_ID", "24473318")
+API_HASH = os.environ.get("API_HASH", "e7dd0576c5ac0ff8f90971d6bb04c8f5")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
 #import os
@@ -44,8 +44,8 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 
 # Environment variables for API credentials
-API_ID = os.environ.get("API_ID", "21705536")
-API_HASH = os.environ.get("API_HASH", "c5bb241f6e3ecf33fe68a444e288de2d")
+API_ID = os.environ.get("API_ID", "24473318")
+API_HASH = os.environ.get("API_HASH", "e7dd0576c5ac0ff8f90971d6bb04c8f5")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
 # Initialize the bot
@@ -57,7 +57,7 @@ bot = Client(
 )
 
 # Define the owner's user ID
-OWNER_ID = 5957208798  # Replace with the actual owner's user ID
+OWNER_ID = 5840594311  # Replace with the actual owner's user ID
 
 # Lists to store authorized channels, users, and groups
 authorized_channels = []
